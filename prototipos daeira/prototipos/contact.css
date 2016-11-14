@@ -1,0 +1,120 @@
+/*
+ * Style tweaks
+ * --------------------------------------------------
+ */
+html,
+body {
+  background-color: #eee;
+  background-image: url(texture.png);
+}
+
+.container{
+  background-color: white;
+}
+
+/* header*/
+
+.jumbotron{
+  margin-bottom: 0;
+  background-image: url(daeiralogo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 218px;
+}
+/*enlace logo daeira
+#logodaeira{
+  background-image: url(../img/daeiralogo.png);
+}*/
+
+
+/*contact*/
+
+.title{
+
+  font-size: 28px;
+  border-bottom: 2px double #4b7db7;
+  margin-top: 1px;
+  padding-bottom: 5px;
+
+
+}
+
+.subtitle{
+
+  font-size: 18px;
+}
+
+.paragraph{
+  margin-bottom: 26px;
+}
+
+
+/*---footer---*/
+
+#mainFooter{
+  text-align: center;
+  margin-top: 10px;
+  top: 10px;
+
+}
+
+#foot1{
+  background-color: #474747;
+  font-size: 17px;
+}
+
+#foot2{
+  background-color: #373737;
+}
+
+.list-inline{
+  margin: 15px;
+}
+
+
+
+a.sitemap{
+  color: #999999;
+}
+
+a.printpage{
+  color: #999999;
+}
+
+a.sitemap:hover{
+  color: #e6e6e6;
+}
+
+a.printpage:hover{
+  color: #e6e6e6;
+}
+
+.col-sm-6 p{
+  margin-top: 12px;
+  color: #999999;
+}
+
+a.copy{
+  color: #999999;
+}
+
+a.copy:hover{
+  color: #e6e6e6;
+}
+
+
+.web_valids {
+ /*por completar colocacion*/ 
+}
+
+/*--- media querie--*/
+
+@media screen and (max-width: 768px){
+
+  .noticia .thumb{
+      width: 100%;
+      margin-bottom: 20px;
+      margin-right: 0;
+
+  }
+}

@@ -1,0 +1,361 @@
+/*daeira publica(index)*/
+
+
+
+/*imagenes carousel*/
+.img_slide {
+    width: 100%;
+    max-height: 250px;
+    border-radius: 3px;
+}
+
+
+.list_projects {
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+
+/*LISTA DE NOTICIAS(INDEX)*/
+
+.title_news{
+	color: #324092;
+	font-size: 20px;
+}
+
+
+.list-group:hover {
+    transition: all 0.8s ease-out;
+    box-shadow: -1.5px 1.5px 2px #c7c7c7;
+}
+
+.list-group-item:last-child{
+
+	background-color: #f9f9f9;
+}
+.title_news:hover{
+
+	color: #5c6cc7;
+	text-decoration: none;
+}
+
+.text_news {
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.link_news{
+	color: #b4444f;
+}
+
+.link_news:hover{
+
+	color: #777;
+	text-decoration: none;
+
+}
+
+.img-responsive.img-thumbnail.img_news:hover{
+
+	transition: all 0.8s ease-out;
+    box-shadow: -1.5px  1.5px 2px #c7c7c7;
+
+	}
+
+
+
+@media (min-width: 768px){
+
+	.img-responsive.img-thumbnail.img_news{
+
+		height: 175px;
+		border-radius: 8px;
+		width: 100%;
+	}
+
+	.list-group-item.content_news{
+		height: 175px;
+	}
+	.text_news{
+		height: 43px;
+	}
+}
+
+@media (max-width: 768px){
+
+	.img-responsive.img-thumbnail.img_news{
+
+		max-height: 150px;
+		border-radius: 8px;
+		width: 100%;
+	}
+
+}
+
+
+/*------NOTICIA VER(PARTE PUBLICA)------*/
+
+.t_news {
+    color: #000000;
+    font-size: 35px;
+    width: 100%;
+    margin-bottom: 10px;
+    line-height: 41px;
+}
+
+.date {
+	margin-top: 10px;
+    margin-bottom: 10px;
+    color: #16849e;
+}
+
+.news_image {
+    width: 100%;
+    max-height: 350px;
+    margin-bottom: 20px;
+}
+
+.content_news {
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.news_details{
+
+	margin-bottom: 35px;
+}
+
+/*noticias miniatura*/
+
+.img-responsive.img_minN{
+
+	height: 90px;
+	width: 120px;
+}
+
+.media-heading.title_minN{
+
+font-size: 16px;
+text-align: justify;
+}
+
+.media-list.box_minN {
+    padding-bottom: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.media-heading.title_minN>a{
+
+		color: #333;
+}
+.media-heading.title_minN>a:hover{
+
+		color: #737171;
+		text-decoration: none ;
+}
+
+/*PROYECTOS(INDEX)*/
+
+
+.intro {
+
+	text-align: justify;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.list_projects {
+    font-size: 35px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0px;
+    margin-bottom: 50px;
+}
+
+.col-xs-12.col-md-6.col-sm-6.col-lg-4.project.grow {
+	position: relative;
+    margin-bottom: 50px;
+    margin-top: 30px;
+
+}
+
+.box_project{
+
+	border: 1px solid #e8e8e8;
+	width: 100%;
+	background: #F9F9F9;
+	margin-bottom: 10px;
+	box-shadow: 0 1px 3px #777;
+}
+
+
+
+
+
+@media (min-width: 768px)
+{
+
+	.title_project{
+
+		margin-top: 15px;
+	}
+	.box_project{
+		height: 300px;
+	}
+
+	.more_info{
+	position: relative;
+	top: 15px;
+	}
+
+
+
+	.col-xs-12.project.grow:hover{
+
+	position: relative;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    z-index: 1;
+    transition: all 0.8s ease-out;
+
+	}
+
+
+}
+
+@media (max-width: 768px) {
+
+
+	.title_project{
+		margin-top: 8px;
+		position: relative;
+		bottom: 20px;
+	}
+
+
+
+	.info{
+		height: 200px;
+		position: relative;
+		top: 7px;
+	}
+
+	.more_info{
+		margin-top: 7px;
+		margin-bottom: 7px;
+		position: relative;
+		top:-16px;
+	}
+
+	.btn-primary.btn_project{
+
+    position: relative;
+	  bottom: 7px;
+    left: 30%;
+  }
+
+}
+
+.btn-primary.btn_project{
+  position: relative;
+  left: 38%
+
+}
+
+
+
+.box_project > .content_project {
+
+	position: relative;
+}
+
+.img-responsive.img-circle.img_box {
+		position: relative;
+ 		z-index: 2;
+ 		margin: auto;
+ 		width: 107px;
+ 		height: 107px;
+ 		border: 8px solid white;
+ 		line-height: 88px;
+ 		vertical-align: middle;
+ 		margin-top: -56px;
+ 		margin-bottom: 10px;
+
+}
+
+
+
+.info{
+	position: relative;
+	top:15px;
+	height: 150px;
+	margin-top: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 15px;
+	font-size: 13px;
+}
+
+
+
+.title_project{
+
+
+	font-size: 22px;
+	text-align: center;
+	margin-bottom: 10px;
+	font-weight: none;
+}
+
+.btn-primary.btn_project{
+
+	background: #324092;
+
+}
+
+.btn-primary.btn_project:hover{
+
+	background: #5c6cc7;
+}
+
+.modal-body.descriptionP {
+    text-align: justify;
+}
+
+/*paginador en proyectos index*/
+
+.progress.hide{
+	display: none;
+}
+
+
+.irtop{
+	width: 60px;
+	height: 60px;
+	position: fixed;
+	bottom: 50%;
+	right: 135px;
+	display: none;
+	text-indent: -9999px;
+	background: url(http://i.imgur.com/lIJ0rMJ.png) no-repeat;
+	cursor: pointer;
+}
+
+
+.glyphicon.glyphicon-chevron-up.arrowtop{
+	display: none;
+	padding:20px;
+	background: #324092;
+	opacity: 0.9;
+	font-size: 20px;
+	color: #fff;
+	cursor: pointer;/*simula un boton al pasar el raton por encima*/
+	position: fixed;
+	z-index: 2;
+	left:80%;
+	top: 80%;
+
+
+
+}

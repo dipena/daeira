@@ -1,0 +1,75 @@
+
+html,
+body {
+     background-image: url(../img/bg.png);
+ 
+}
+
+.container{
+ 
+ background: #ffffff;
+}
+
+
+
+/* logo pagina publica daeira*/
+
+
+.logo_daeira{
+  width: 100%;
+  max-height: 190px;
+}
+
+/*footer de daeira*/
+
+.foot1 {
+    background-color: #585757;
+    width: 100%;
+    text-align: center;
+    border-radius:3px 3px 0px 0px;
+
+}
+
+.foot1 ul>li>a{
+  color: #c7c7c7;
+}
+
+.foot1 ul>li>a:hover{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.foot2{
+  background-color: #566556;
+
+}
+
+
+.list-inline{
+  margin: 15px;
+}
+
+
+.foot21, .foot22 {
+    background-color: #423f3f;
+    
+}
+
+.foot21>ul>p , .foot21>ul>p>a{
+  color: #c7c7c7;
+
+}
+
+
+
+/*--- media querie--*/
+
+@media screen and (max-width: 768px){
+
+  .noticia .thumb{
+      width: 100%;
+      margin-bottom: 20px;
+      margin-right: 0;
+
+  }
+}

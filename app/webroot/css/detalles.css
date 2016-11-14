@@ -1,0 +1,310 @@
+
+/*noticias(LISTAR)*/
+
+.progress.oculto{
+
+	display: none;
+}
+
+.list_titles > th > a{
+
+	color: #383636;
+}
+
+.list_titles > th{
+
+	color:#383636;
+}
+.list{
+	font-size: 30px;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+}
+
+.btn-success.add{
+	margin-bottom: 5px;
+
+}
+
+.btn-primary.btn-sm.btn_edit{
+
+	background: #324092;
+
+}
+
+
+.btn-primary.btn-sm.btn_edit:hover{
+
+	background: #5c6cc7;
+
+}
+
+.glyphicon.glyphicon-eye-open.gly_eye{
+
+	color: #324092;
+}
+
+.glyphicon.glyphicon-eye-close.gly_eye{
+
+	color: #324092;
+}
+
+
+
+
+
+
+/*paginador listar noticias*/
+
+
+
+.pagination.pagination-sm > .active > a{
+
+	background-color: #324092;
+	border-color: #324092;
+}
+.pagination.pagination-sm > .active > a:hover{
+
+	background-color: #5c6cc7;
+
+}
+
+/**NOTICIA(NUEVO)*/
+
+.btn.btn-primary.btn_news {
+    background: #324092;
+    margin-right: 5px;
+}
+
+.btn.btn-primary.btn_news:hover {
+    background: #5c6cc7;
+}
+
+/*noticia(VER)*/
+.img-responsive.img-rounded.img_news {
+    width: 100%;
+    max-height: 330px;
+}
+
+.date{
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+
+}
+
+.gly_edit{
+
+	color:#333333;
+}
+
+
+.gly_edit:hover{
+
+	color:#777;
+}
+
+.titleN {
+    color: #000000;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+}
+
+.textN{
+	text-align: justify;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 8px;
+}
+
+
+.btn.btn-primary.ver_news {
+    background: #324092;
+    margin-top: 10px;
+}
+
+.btn.btn-primary.ver_news:hover {
+    background: #5c6cc7;
+}
+
+
+/* editar(noticia y proyecto)*/
+
+
+.row.row_edit{
+
+	margin-bottom: 50px;
+}
+.btn_save{
+	margin-right: 5px;
+	background: #324092;
+	border-color: #324092;
+
+}
+.btn_save:hover{
+
+	background: #5c6cc7;
+	border-color: #324092;
+
+
+}
+
+/*ver(proyecto)*/
+
+.img_project{
+
+	width: 100%;
+	max-height: 200px;
+}
+.title_project{
+
+	color: #000000;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-bottom: 15px;
+}
+
+.date{
+	margin-top: 10px;
+	padding-bottom: 6px;
+}
+
+.info_project{
+
+	margin: 15px 10px;
+	text-align: justify;
+}
+
+.summary_project{
+
+	border-bottom: 1px solid #ccc;
+}
+
+/*proyecto(nuevo)*/
+
+.btn.btn-primary.btn_project {
+    background: #324092;
+    margin-right: 5px;
+}
+
+.btn.btn-primary.btn_project:hover {
+    background: #5c6cc7;
+}
+
+/* cambiar color tabs ver proyecto en parte admin*/
+
+.nav.nav-tabs.tabsP_admin>li>a{
+	color: #324092;
+}
+
+.nav.nav-tabs.tabsP_admin>li.active>a{
+	color: #333333;
+}
+
+/*-------------SOFTWARES-----------*/
+
+/*SOFTWARE(LISTAR)*/
+
+.list_softwares{
+
+	font-size: 30px;
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+}
+
+.software{
+
+	border: 1px solid #ccc;
+	background: #fff;
+	cursor: pointer;
+	width: 100%;
+}
+
+.img-responsive.img_software{
+	position: relative;
+	 display: inline-block;
+	 width: 100%;
+}
+
+.name_software{
+
+
+	 position: relative;
+	 z-index: 10;
+	 -ms-transition: all .2s ease-out;
+	 -webkit-transition: all .2s ease-out;
+	 -moz-transition: all .2s ease-out;
+	 -o-transition: all .2s ease-out;
+	 transition: all .2s ease-out;
+	 text-align: center;
+	 font-size: 20px;
+
+
+}
+
+
+.actions{
+	position: absolute;
+
+	vertical-align: middle;
+	text-align: center;
+
+}
+.software:hover > .actions{
+	opacity: 1;
+	width: 100%;
+}
+
+.software .actions {
+    display: block;
+    position: absolute;
+		overflow: hidden;
+    top: 0;
+    z-index: 1;
+		width: 100%;
+		height:88%;
+    opacity: 0;
+    background-color: rgba(29,29,29,.7);
+    -ms-transition: all .2s ease-out;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+}
+
+.btn-primary.btn_edit{
+
+	background: #324092;
+	border-color:  #324092;
+
+}
+
+.btn-success.add_software {
+    margin-bottom: 5px;
+    margin-left: 14px;
+
+}
+
+@media (min-width:768px) {
+
+	.software{
+
+			height: 175px;
+	}
+	.img_software.img-responsive{
+		height: 110px;
+	}
+
+}
+
+
+
+/*div glyphicon visible*/
+
+.visible{
+	text-align: center;
+	width: 100%;
+	margin-top: 3px;
+
+}
